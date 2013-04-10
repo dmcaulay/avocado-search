@@ -1,9 +1,36 @@
 {
-  "id":"YOUR_ID",
-  "key":"YOUR_KEY",
-  "credentials":{
-    "email":"USER_EMAIL",
-    "password":"USER_PASSWORD"
+  "db": {
+    "id": "db",
+    "name": "avocado_search_db",
+    "host": "localhost",
+    "port": 27017
+  },
+  "avocado":{
+    "id":"YOUR_ID",
+    "key":"YOUR_KEY",
+    "credentials":{
+      "email":"USER_EMAIL",
+      "password":"USER_PASSWORD"
+    }
+  },
+  "search": {
+    "host": "localhost",
+    "port": 9200,
+    "index": {
+      "name": "avocado",
+      "settings": {
+        "index" : {
+          "analysis" : {
+            "analyzer" : {
+              "snowball" : {
+                "type" : "snowball",
+                "language" : "English"
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 

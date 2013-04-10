@@ -14,7 +14,8 @@
     "underscore": "~1.4.4",
     "mongo-wrapper": "0.0.2",
     "node-elasticsearch": "0.0.2",
-    "avocado-api": "0.0.0"
+    "avocado-api": "0.0.0",
+    "async": "~0.2.7"
   },
   "devDependencies": {
     "mocha": "~1.9.0"
