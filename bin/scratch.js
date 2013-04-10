@@ -1,8 +1,6 @@
 
 var async = require('async')
 var config = require('config')
-// init db
-require('mongo-wrapper').setup(config.db)
 
 // init avocado api
 var avocado = require('avocado-api')
@@ -16,6 +14,8 @@ var session = avocado.login(config.avocado.credentials)
 var activites = require('../lib/activities')
 
 // might use mongo so i don't index twice
+// init db
+// require('mongo-wrapper').setup(config.db)
 // var db = require('mongo-wrapper').db.add('activites')
 
 // index activities
