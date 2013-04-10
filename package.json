@@ -1,0 +1,22 @@
+{
+  "name": "avocado-search",
+  "version": "0.0.0",
+  "description": "search for avocado.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "bin/test"
+  },
+  "repository": "",
+  "author": "Dan McAulay",
+  "license": "BSD",
+  "dependencies": {
+    "config": "~0.4.22",
+    "underscore": "~1.4.4",
+    "mongo-wrapper": "0.0.2",
+    "node-elasticsearch": "0.0.2",
+    "avocado-api": "0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0"
+  }
+}

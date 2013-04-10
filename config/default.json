@@ -1,0 +1,9 @@
+{
+  "id":"YOUR_ID",
+  "key":"YOUR_KEY",
+  "credentials":{
+    "email":"USER_EMAIL",
+    "password":"USER_PASSWORD"
+  }
+}
+
